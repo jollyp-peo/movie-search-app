@@ -22,7 +22,6 @@ A simple React-based movie search application that fetches movie data from the O
    git clone https://github.com/jollyp-peo/movie-search-app.git
    cd movie-search-app
 
-   Website URL:        https://jolly-brioche-b5cf6d.netlify.app
 
 2.   **Install dependencies**
 
@@ -58,7 +57,10 @@ A simple React-based movie search application that fetches movie data from the O
 │── README.md
 │── package.json
 
-
+7. **Production**
+   Website URL:        https://movie-search-app-nine-sigma.vercel.app/
+   Website URL:        https://jolly-brioche-b5cf6d.netlify.app/
+   
 **🔗 API Reference**
 This app uses the OMDB API.
 OMDB API Documentation

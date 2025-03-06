@@ -62,7 +62,7 @@ function App() {
 
   return (
     <div>
-      <div>
+      <div className='project-container'>
         <SearchBar 
          handleSearch={handleSearch} 
          searchValue={search} 
