@@ -183,7 +183,7 @@ input {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .search-bar {
-    flex-direction: column;
+    /* flex-direction: column; */
     height: auto;
     padding: 15px;
   }
@@ -208,6 +208,13 @@ input {
 }
 
 @media (max-width: 500px) {
+  .input-div {
+    max-width: 350px;
+    margin: 10px;
+  }
+  input{
+    padding: 5px;
+  }
   .movies-container {
     grid-template-columns: repeat(2, 1fr);
   }
